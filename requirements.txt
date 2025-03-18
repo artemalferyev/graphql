@@ -1,0 +1,7 @@
+fastapi==0.115.11
+graphql-core==3.2.6
+pytest==8.3.5
+SQLAlchemy==2.0.39
+strawberry-graphql==0.262.5
+typing_extensions==4.12.2
+uvicorn==0.34.0
