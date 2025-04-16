@@ -2,7 +2,8 @@
 
 This project is a simple FastAPI application integrated with Strawberry GraphQL. It includes a SQLite in-memory database and allows querying and mutating user data through GraphQL endpoints. The repository also includes automated tests and a Docker setup.
 
-## Features
+Features:
+
 - **FastAPI** as the backend framework
 - **Strawberry GraphQL** for query and mutation handling
 - **SQLAlchemy** for database management
@@ -10,7 +11,7 @@ This project is a simple FastAPI application integrated with Strawberry GraphQL.
 - **Docker support** for containerization
 - **Automated testing** using `pytest`
 
-## Installation
+Installation:
 
 ### Prerequisites
 - Python 3.10+
@@ -37,7 +38,7 @@ This project is a simple FastAPI application integrated with Strawberry GraphQL.
    uvicorn GraphQL:app --host 0.0.0.0 --port 8000
    ```
 
-## API Usage
+API Usage:
 
 ### Accessing GraphQL Playground
 Once the server is running, open your browser and navigate to:
@@ -67,13 +68,15 @@ mutation {
 }
 ```
 
-## Running Tests
+Running Tests:
+
 To run the test suite, execute:
 ```sh
 pytest
 ```
 
-## Docker Setup
+Docker Setup:
+
 To build and run the application using Docker:
 1. Build the Docker image:
    ```sh
@@ -83,8 +86,4 @@ To build and run the application using Docker:
    ```sh
    docker run -p 8000:8000 fastapi-graphql-app
    ```
-
-##   License
-
-This project is licensed under the MIT License. Feel free to modify and use it as needed.
 
